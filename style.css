@@ -23,6 +23,7 @@ body {
   place-items: center;
   min-height: 100vh;
   max-width: 100vw;
+  padding: 30px 0 40px;
 }
 
 body .card {
@@ -108,6 +109,7 @@ body .card .card_line .price {
 body .card .card_line .price .price_element {
   font-size: 16px;
 }
+
 body .card .card_line .price .price_element:first-child {
   color: var(--cyan);
 }
@@ -150,12 +152,15 @@ body .card .card_line .creator .creator_element a:hover {
   color: var(--cyan);
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
+footer {
   position: fixed;
   bottom: 20px;
   width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
   text-align: center;
   color: var(--white);
 }
