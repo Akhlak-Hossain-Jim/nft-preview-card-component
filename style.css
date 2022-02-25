@@ -69,6 +69,7 @@ body .card .card_line:first-child .card_line__hover {
   right: 0;
   left: 0;
   bottom: 0;
+  border-radius: 12px;
 }
 
 body .card .card_line:first-child .card_line__hover img {
