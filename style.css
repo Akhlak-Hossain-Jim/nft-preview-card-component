@@ -106,7 +106,7 @@ body .card .card_line .price {
 }
 
 body .card .card_line .price .price_element {
-  font-size: 18px;
+  font-size: 16px;
 }
 body .card .card_line .price .price_element:first-child {
   color: var(--cyan);
@@ -117,7 +117,7 @@ body .card .card_line .price .price_element:last-child {
 }
 
 body .card .card_line .price .price_element img {
-  width: 10px;
+  width: 8px;
   height: auto;
 }
 
@@ -125,7 +125,7 @@ body .card .card_line .creator {
   display: flex;
   align-items: center;
   gap: 15px;
-  padding: 20px 0 0;
+  padding: 20px 0 10px;
 }
 
 body .card .card_line .creator .creator_element {
@@ -134,8 +134,8 @@ body .card .card_line .creator .creator_element {
 }
 
 body .card .card_line .creator .creator_element img {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   border: 2px solid var(--white);
 }
