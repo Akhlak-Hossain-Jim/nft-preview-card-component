@@ -50,6 +50,35 @@ body .card .card_line img {
   border-radius: 12px;
 }
 
+body .card .card_line:first-child {
+  position: relative;
+  height: max-content;
+  aspect-ratio: 1/1;
+}
+
+body .card .card_line:first-child .card_line__hover {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  background-color: hsla(178, 100%, 50%, 50%);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+body .card .card_line:first-child .card_line__hover img {
+  width: 10%;
+  height: auto;
+}
+
+body .card .card_line:first-child:hover .card_line__hover {
+  opacity: 1;
+}
+
 body .card .card_line h1 {
   font-size: 23px;
   margin-bottom: 20px;
