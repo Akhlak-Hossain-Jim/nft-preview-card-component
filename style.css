@@ -61,7 +61,7 @@ body .card .card_line h1:hover {
 }
 
 body .card .card_line p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 120%;
   margin-bottom: 20px;
   color: var(--soft-blue);
@@ -77,7 +77,7 @@ body .card .card_line .price {
 }
 
 body .card .card_line .price .price_element {
-  font-size: 16px;
+  font-size: 18px;
 }
 body .card .card_line .price .price_element:first-child {
   color: var(--cyan);
@@ -100,7 +100,7 @@ body .card .card_line .creator {
 }
 
 body .card .card_line .creator .creator_element {
-  font-size: 15px;
+  font-size: 18px;
   color: var(--soft-blue);
 }
 
