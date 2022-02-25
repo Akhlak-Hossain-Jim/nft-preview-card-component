@@ -109,6 +109,10 @@ body .card .card_line .price {
 
 body .card .card_line .price .price_element {
   font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
 }
 
 body .card .card_line .price .price_element:first-child {
@@ -119,8 +123,12 @@ body .card .card_line .price .price_element:last-child {
   color: var(--soft-blue);
 }
 
+body .card .card_line .price .price_element:last-child img {
+  width: 15px;
+}
+
 body .card .card_line .price .price_element img {
-  width: 8px;
+  width: 10px;
   height: auto;
 }
 
